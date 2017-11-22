@@ -72,8 +72,8 @@ class Listener(StreamListener):
         tweets_file.close()
 
 if __name__ == '__main__':
-    AWS_ACCESS_KEY = 'AKIAJLTA4HFHSGQUFYSQ'
-    AWS_SECRET_KEY = 'kcjVgO9bWnYS7sQYBldDJUhu0kLVFfiB31R3+m/e'
+    AWS_ACCESS_KEY = ''
+    AWS_SECRET_KEY = ''
     region = 'us-east-2'  # For example, us-east-1
     service = 'es'
 
